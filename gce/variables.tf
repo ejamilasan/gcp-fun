@@ -26,10 +26,10 @@ variable "instance_name" {
   type = string
 }
 
-variable "public_key_path" {
+variable "ssh_network_tag" {
   type = string
 }
 
-variable "ssh_network_tag" {
+variable "ip_address" {
   type = string
 }
